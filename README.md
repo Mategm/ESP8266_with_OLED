@@ -8,14 +8,14 @@ Its display a logo and welcome text and after thet its will be animated.
 - Jumper cables.
 
 
-You can see a picture from the fulls setup here:<br>
+You can see a picture from the full setup here:<br>
 ![Picture from the setup](/ESP8266-OLED.jpg)
 
 ## Arduino Modules:
 - Adafruit_SSD1306,
 - Adafruit_GFX.
 
-If you get an error message for the display, or the display shows wrong resolution, make this change, but my code trying to overwright the defaults.<br>
+If you get an error message for the display, or the display shows wrong resolution, make this change, but my code trying to overwrite the defaults.<br>
 The display size must be changed in the Adafruit_SSD1306.h header file to make it work for us.<br>
 *My Documents > Arduino > libraries > Adafruit_SSD1306 > Adafruit_SSD1306.h*<br>
 Open Adafruit_SSD1306.h file in a text editor. Scroll down the file to find the section with the SSD1306 Displays or directly go to line no. 28-29. Comment out #define SSD1306_128_32 and uncomment #define SSD1306_128_64
